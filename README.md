@@ -24,12 +24,7 @@ docker build -t notes-app .
 docker run -d -p 8000:8000 notes-app:latest
 ```
 
-## NOTE : Nginx
-
-Install Nginx reverse proxy to make this application available
-
-`sudo apt-get update`
-`sudo apt install nginx`
+![DjangoCICD-auto-buildtrigger-github-webhooks-integration-final](https://github.com/user-attachments/assets/68ec92a4-e68b-4fe6-ba08-54d1771c8761)
 
 
 Troubleshooting steps :
