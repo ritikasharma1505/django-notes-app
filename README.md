@@ -1,5 +1,7 @@
-# Simple Notes App for TWS Community
+# Simple Django CI/CD Project 
 This is a simple notes app built with React and Django.
+This repo is not cloned locally..only remotely this project is available
+
 
 ## Requirements
 1. Python 3.9
@@ -28,3 +30,8 @@ Install Nginx reverse proxy to make this application available
 
 `sudo apt-get update`
 `sudo apt install nginx`
+
+
+Troubleshooting steps :
+This was hard until GitHub hooks came into the picture, make sure the same git repo is used in Jenkinsfile for which you created GitHub webhooks(which means fork the project), I mistakenly used the instructor's, and the auto build trigger wasn't working
+
